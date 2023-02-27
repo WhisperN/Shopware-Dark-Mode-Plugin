@@ -1,0 +1,42 @@
+// includes
+@import "component/components";
+@import "skin/skins";
+// for now just dmp-banner css classes and variables
+
+:root {
+  // background color light
+  $lbg-color: $sw-background-color;
+  // background color dark
+  $dbg-color: $dmp-plugin-bg-color;
+  // add div, input, form?
+
+  // primary-color
+  // secondary-color
+  // text-color light
+  $ltext-color: $sw-text-color;
+  // text-color dark
+  $dtext-color: $dmp-plugin-text-color;
+  // all hovers
+
+  // background color
+  .dmp-base {
+    // add div, input, form?
+    background-color: $lbg-color;
+    @media (prefers-color-scheme: dark) {
+      background-color: $dbg-color;
+    }
+  }
+  .light-bg {
+    background-color: $sw-text-color;
+  }
+  // primary-color
+  // secondary-color
+  // text-color
+  p, h1, h2, h3, h4, h5, h6, span, a {
+    // all hovers with secondary color
+    color: $ltext-color;
+    @media (prefers-color-scheme: dark) {
+      background-color: $dtext-color;
+    }
+  }
+}

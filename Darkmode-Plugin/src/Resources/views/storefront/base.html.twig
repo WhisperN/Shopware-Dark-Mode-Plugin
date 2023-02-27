@@ -1,0 +1,21 @@
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+
+{% set dmp = { 'version': 'v0.0.1 - alpha'}%}
+
+{% block base_header %}
+    {% if config('DarkModePlugin.config.isBanner') %}
+        {% sw_include '@Storefront/storefront/dmp/darkmode-banner.html.twig' %}
+    {% endif %}
+    {{parent()}}
+{% endblock %}
+
+{# Includes base-classes #}
+{% block base_body_classes %} dmp-base {% sw_include '@Storefront/storefront/base-classes.html.twig' %}{% endblock %}
+
+{% block base_navigation %}
+    {{parent()}}
+{% endblock %}
+
+{% block base_footer %}
+    {{parent()}}
+{% endblock %}

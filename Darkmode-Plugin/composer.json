@@ -1,0 +1,18 @@
+{
+  "name": "nd/darkmodeplugin",
+  "description": "Ein custom dark-mode plugin/theme alpha version",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "DarkModePlugin\\": "src/"
+    }
+  },
+"extra": {
+  "shopware-plugin-class": "DarkModePlugin\\DarkModePlugin",
+  "label": {
+    "de-DE": "A Playful Dark Mode feature for shopware",
+    "en-GB": "A Playful Dark Mode feature for shopware"
+    }
+  }
+}

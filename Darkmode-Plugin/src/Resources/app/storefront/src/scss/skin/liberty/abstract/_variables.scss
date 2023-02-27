@@ -1,0 +1,33 @@
+/*
+ * Variablen von Shopware
+ */
+
+// first card
+$dmp-plugin-primary-color: #000 !default;
+$dmp-plugin-secondary-color: #fff !default;
+$dmp-plugin-bg-color: #484848 !default;
+$dmp-plugin-border-color: #484848FF !default;
+
+$sw-color-brand-primary: $dmp-plugin-primary-color;
+$sw-color-brand-secondary: $dmp-plugin-secondary-color;
+$sw-background-color: $dmp-plugin-bg-color;
+$sw-border-color: $dmp-plugin-border-color;
+
+//second card
+$dmp-plugin-success-color: #92ee61 !default;
+$dmp-plugin-information-color: #30a7f1 !default;
+$dmp-plugin-notice-color: #ffa500 !default;
+$dmp-plugin-error-color: #ff0000 !default;
+
+$sw-color-success: $dmp-plugin-success-color;
+$sw-color-info: $dmp-plugin-information-color;
+$sw-color-warning: $dmp-plugin-notice-color;
+$sw-color-danger: $dmp-plugin-error-color;
+
+//third card
+
+$dmp-plugin-text-color: #eee !default;
+$dmp-plugin-headline-color: #eee !default;
+
+$sw-text-color: $dmp-plugin-text-color;
+$sw-headline-color: $dmp-plugin-headline-color;

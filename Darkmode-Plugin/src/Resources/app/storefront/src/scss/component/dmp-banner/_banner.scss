@@ -1,0 +1,14 @@
+// edit all into one class...
+
+.dark-mode-banner {
+  width: 100vw;
+  height: 40px;
+  background: antiquewhite;
+  @media (prefers-color-scheme: dark) {
+    background-color: $dmp-plugin-bg-color;
+  }
+}
+
+.banner-hide {
+  display: none;
+}

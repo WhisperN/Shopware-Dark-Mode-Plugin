@@ -1,0 +1,38 @@
+.dark-mode-banner {
+  width: 100vw;
+  height: 30px;
+  background: $dmp-plugin-primary-color;
+}
+.dmp-base {
+  background-color: $dmp-plugin-bg-color;
+}
+// Font coloring
+p, h1, h2, h3, h4, h5, h6, span, a {
+  color: $dmp-plugin-text-color;
+}
+// links and sub-border
+.main-navigation-link-text {
+  border-color: $dmp-plugin-primary-color;
+}
+// Icon color
+.icon {
+  color: $dmp-plugin-primary-color;
+}
+// navigation flyout
+.navigation-flyout {
+  box-shadow: 0 43px 43px -6px rgba($white, 0.2);
+  background-color: $dmp-plugin-bg-color;
+}
+// navigation link
+.nav-link {
+  border-bottom: 2px solid $border-color;
+  color: $dmp-plugin-text-color;
+}
+.nav-link:hover {
+  border-color: $dmp-plugin-primary-color;
+  color: $dmp-plugin-primary-color;
+}
+// footer stuff
+.footer-bottom {
+  background-color: $dmp-plugin-bg-color;
+}

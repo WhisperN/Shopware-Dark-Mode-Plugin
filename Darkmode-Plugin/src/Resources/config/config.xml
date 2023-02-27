@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Settings</title>
+        <title lang="de-DE">Einstellungen</title>
+
+        <input-field type="bool">
+            <name>isBanner</name>
+            <defaultValue>true</defaultValue>
+            <label>Show banner?</label>
+            <label lang="de-De">Banner anzeigen?</label>
+        </input-field>
+        <input-field type="text">
+            <name>bannerText</name>
+            <label>Banner text</label>
+        </input-field>
+    </card>
+    <card>
+        <title>Dark Mode Colors</title>
+        <title lang="de-DE">Dunkler Modus Farben</title>
+
+        <input-field type="colorpicker">
+            <name>dmpPluginPrimaryColor</name>
+            <label>Primary Color</label>
+            <label lang="de-DE">Kopfzeile Hintergrundfarbe</label>
+            <css>dmp-plugin-primary-color</css>
+            <defaultValue>#eee</defaultValue>
+        </input-field>
+        <input-field type="colorpicker">
+            <name>dmpPluginSecondaryColor</name>
+            <label>Secondary Color</label>
+            <label lang="de-DE">Kopfzeile Hintergrundfarbe</label>
+            <css>dmp-plugin-secondary-color</css>
+            <defaultValue>#eee</defaultValue>
+        </input-field>
+        <input-field type="colorpicker">
+            <name>dmpPluginBorderColor</name>
+            <label>Border</label>
+            <label lang="de-DE">Kopfzeile Hintergrundfarbe</label>
+            <css>dmp-plugin-border-color</css>
+            <defaultValue>#eee</defaultValue>
+        </input-field>
+        <input-field type="colorpicker">
+            <name>dmpPluginBgColor</name>
+            <label>Background</label>
+            <label lang="de-DE">Kopfzeile Hintergrundfarbe</label>
+            <css>dmp-plugin-bg-color</css>
+            <defaultValue>#eee</defaultValue>
+        </input-field>
+
+        <input-field type="colorpicker">
+            <name>dmpPluginSuccessColor</name>
+            <label>Success</label>
+            <label lang="de-DE">Kopfzeile Hintergrundfarbe</label>
+            <css>dmp-plugin-success-color</css>
+            <defaultValue>#eee</defaultValue>
+        </input-field>
+        <input-field type="colorpicker">
+            <name>dmpPluginInformationColor</name>
+            <label>Information</label>
+            <label lang="de-DE">Kopfzeile Hintergrundfarbe</label>
+            <css>dmp-plugin-information-color</css>
+            <defaultValue>#eee</defaultValue>
+        </input-field>
+        <input-field type="colorpicker">
+            <name>dmpPluginNoticeColor</name>
+            <label>Notice</label>
+            <label lang="de-DE">Kopfzeile Hintergrundfarbe</label>
+            <css>dmp-plugin-notice-color</css>
+            <defaultValue>#eee</defaultValue>
+        </input-field>
+        <input-field type="colorpicker">
+            <name>dmpPluginErrorColor</name>
+            <label>Error</label>
+            <label lang="de-DE">Kopfzeile Hintergrundfarbe</label>
+            <css>dmp-plugin-error-color</css>
+            <defaultValue>#eee</defaultValue>
+        </input-field>
+
+
+        <input-field type="colorpicker">
+            <name>dmpPluginTextColor</name>
+            <label>Text colour</label>
+            <label lang="de-DE">Kopfzeile Hintergrundfarbe</label>
+            <css>dmp-plugin-text-color</css>
+            <defaultValue>#eee</defaultValue>
+        </input-field>
+        <input-field type="colorpicker">
+            <name>dmpPluginHeadlineColor</name>
+            <label>Headline colour</label>
+            <label lang="de-DE">Kopfzeile Hintergrundfarbe</label>
+            <css>dmp-plugin-headline-color</css>
+            <defaultValue>#eee</defaultValue>
+        </input-field>
+    </card>
+</config>

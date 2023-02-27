@@ -1,0 +1,19 @@
+// primary
+$primary: $dmp-plugin-primary-color !default;
+$input-focus-border-color: $dmp-plugin-primary-color !default;
+$custom-control-indicator-active-bg: $dmp-plugin-primary-color !default;
+
+// secondary
+$secondary: $dmp-plugin-secondary-color !default;
+
+// background color
+$body-bg: $dmp-plugin-bg-color !default;
+
+// border color
+$border-color: $dmp-plugin-border-color !default;
+$input-border-color: $dmp-plugin-border-color !default;
+$form-check-input-border: 1px solid $dmp-plugin-border-color !default;
+$pagination-border-color: $dmp-plugin-border-color !default;
+$pagination-hover-border-color: $dmp-plugin-border-color !default;
+$pagination-focus-border-color: $dmp-plugin-border-color !default;
+$dropdown-border-color: $dmp-plugin-border-color !default;

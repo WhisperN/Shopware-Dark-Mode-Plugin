@@ -1,0 +1,67 @@
+{
+  "name": "DarkModePlugin",
+  "author": "NickDev",
+  "views": [
+    "@Storefront",
+    "@Plugins",
+    "@DarkModePlugin"
+  ],
+  "style": [
+    "app/storefront/src/scss/overrides.scss",
+    "@Storefront",
+    "app/storefront/src/scss/base.scss"
+  ],
+  "script": [
+    "@Storefront",
+    "app/storefront/dist/storefront/js/tester.js",
+    "app/storefront/dist/storefront/js/dark-mode-plugin.js"
+  ],
+  "asset": [
+    "@Storefront",
+    "app/storefront/src/assets"
+  ],
+  "config": {
+    "tabs": {
+      "custom": {
+        "label": {
+          "en-GB": "Dark Mode Colors",
+          "de-DE": "Dark Mode Farben"
+        }
+      }
+    },
+    "sections": {
+      "settings": {
+        "label": {
+          "en-GB": "Settings",
+          "de-DE": "Einstellungen"
+        }
+      }
+    },
+    "blocks": {
+      "body": {
+        "background": {
+          "en-GB": "Background Color",
+          "de-DE": "Hintergrund Farbe"
+        },
+        "banner": {
+          "en-GB": "Dark Mode Banner",
+          "de-DE": "Dark Mode Banner"
+        }
+      }
+    },
+    "fields": {
+      "sw-color-primary": {
+        "label": {
+          "en-GB": "Primary color",
+          "de-DE": "Primärfarbe"
+        },
+        "type": "color",
+        "value": "#000000",
+        "editable": false,
+        "tab": "custom",
+        "block": "background",
+        "section": "settings"
+      }
+    }
+  }
+}

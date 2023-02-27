@@ -1,0 +1,18 @@
+{% block storefront_dmp_darkmodeBanner %}
+    <div class="dark-mode-banner"
+         dark-mode-banner>
+        <div class="dark-mode-item">
+            {{ config('DarkModePlugin.config.bannerText') }}
+        </div>
+        <button class="dark-mode-item dark-mode-btn">
+            <p>Press</p>
+        </button>
+        <div class="">
+            <button class="banner-close">
+                <span>
+                    {% sw_icon 'x' %}
+                </span>
+            </button>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,33 @@
+@import "../component/components";
+@import "../skin/skins";
+
+:root {
+  // background color
+  --bg-color: $sw-background-color;
+  // add div, input, form?
+
+  // primary-color
+  // secondary-color
+  // text-color
+  --text-color: $sw-text-color;
+  // all hovers
+
+  // background color
+  .dmp-base {
+    // add div, input, form?
+    background-color: var(--bg-color);
+    @media (prefers-color-scheme: dark) {
+      background-color: $dmp-plugin-bg-color;
+    }
+  }
+  // primary-color
+  // secondary-color
+  // text-color
+  p, h1, h2, h3, h4, h5, h6, span, a {
+    // all hovers with secondary color
+    color: var(--text-color);
+    @media (prefers-color-scheme: dark) {
+      background-color: $dmp-plugin-text-color;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{# In here is the handling of the theme manager defined. #}
+
+{% block dmp_body_classes %}
+    {% apply spaceless %}
+        {% if dmp.config.isDarkModeBanner == 1 %}
+            {% set class = class|merge(['is-dark-mode']) %}
+        {% endif %}
+    {% endapply %}
+{% endblock %}
